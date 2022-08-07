@@ -1,0 +1,1391 @@
+*, body{
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #fffdf6;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+button{
+    cursor: pointer;
+}
+.head{
+    padding: 1.3em;
+    padding-top: 2em;
+    padding-bottom: 1.5em;
+    margin: auto;
+    position: fixed;
+    background-color:#fffdf6;
+    top: 0;
+    width: 100%;
+    left: 0;
+    z-index: 999;
+   
+}
+.click{
+    display: flex;
+    justify-content: space-between;
+}
+.click img{
+    width: 146px;
+}
+.menu{
+    display: none;
+}
+.menu ul{
+    list-style: none;
+    display: flex;
+
+}
+.menu ul li {
+    margin-right: 50px;
+}
+.menu ul li a {
+    font-size: 18px;
+    text-decoration: none;
+    color: #6f6b63;
+}
+.button{
+    position: relative;
+    margin-left: 50px;
+    margin-top: 7px;
+}
+.button a{
+   
+    text-align: right;
+    display: flex;
+    text-decoration: none;
+    
+}
+.button a img{
+    width: 50px;
+    position: absolute;
+    left: -35px;
+    top: -16px;
+    border: 9px solid #e8332c;
+    border-radius: 50%;
+    background-color: #f08980;
+}
+.button button{
+   
+    font-size: 18px;
+    background: transparent;
+  
+    color: white;
+    font-weight: 200;
+    letter-spacing: .5px;
+}
+.button a span{
+    background-color: #e8332c;
+    padding: .5em;
+    border-radius: 50px;
+    padding-inline: .8em;
+    margin-top: 10px;
+}
+.cf{
+    clear: both;
+}
+.hero{
+    width: 100%;
+    margin-top: 100px;
+    position: relative;
+}
+.image{
+    width: 100%;
+    margin: auto;
+}
+.potrait img{
+    position: absolute;
+    display: none;
+}
+.laptop img{
+    display: none;
+    mix-blend-mode: darken!important;
+}
+.image img{
+    width: 100%;
+    mix-blend-mode: darken!important;
+}
+.note{
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    position: relative;
+    margin-bottom: 20px;
+}
+.red {
+    color: #e8332c;
+    margin-top: 0;
+    text-align: center;
+    font-size: 18px;
+   
+}
+.note h3 {
+    font-size: 22px;
+    width: 85%;
+    margin: auto;
+    margin-bottom: 30px;
+}
+.swoosh{
+    position: absolute;
+    width: 103px;
+    right: 23%;
+    top: 30%;
+
+}
+.sec1s{
+    width:46px;
+    position: absolute;
+    bottom: 5%;
+}
+.black{
+    font-size: 18px;
+    margin-bottom: 50px;
+    margin-top: 10px;
+}
+.roll{
+    background-color: #e8332c;
+    padding: .8em;
+    border-radius: 50px;
+    padding-inline: 2em;
+    font-size: 20px;
+    letter-spacing: 1px;
+    color: white;
+    margin-bottom: 80px;
+}
+
+.line{
+    height: 1px;
+    border: .5px solid black;
+    opacity: .3;
+    width: 95%;
+    margin: auto;
+}
+.ingress{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.good{
+    width: 90%;
+    font-size: 20px;
+    margin: auto;
+
+}
+.ingress img {
+    width: 70%;
+    margin-top: 30px;
+    mix-blend-mode: darken!important;
+}
+.more{
+    width: 79%;
+    margin: auto;
+    margin-bottom: 40px;
+}
+.more a{
+    color: #59b386;
+}
+.jug img{
+    display: none;
+}
+.why{
+    width: 90%;
+    margin: auto;
+    margin-bottom: 40px;
+    display: flex;
+    position: relative;
+    padding-top: 50px;
+}
+
+.yy p {
+    margin-bottom: 0;
+}
+.yy h3{
+    margin-top: 0;
+    line-height: 30px;
+    font-size: 24px;
+}
+.spiral img{
+    position: absolute;
+    width: 15%;
+    left: 42%;
+    top: 13%;
+    
+}
+.st{
+    display: none;
+    mix-blend-mode: darken!important;
+}
+.st img {
+    width: 65%;
+}
+.zuri{
+    color: #e8332c;
+    font-weight: 500;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.at{
+    margin-top: 10px;
+    width: 100%;
+    font-size: 22px;
+   font-weight: 700;
+}
+.container{
+    width: 95%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.box{
+    width: 95%;
+    background-color: #e8332c;
+    margin: auto;
+    border-radius: 18px;
+    box-shadow: 0 11px 22px rgb(231 51 43 / 10%);
+    transition: .25s ease;
+    margin-bottom: 30px;
+    margin-top: 10px;
+   
+
+}
+.bx{
+    padding: 1em;
+    position: relative;
+    padding-bottom: 30px;
+}
+.circle img{
+    width: 120px;
+    color: #59b386;
+    position: absolute;
+    float: right;   
+    right: -1px;
+    top: -1px;
+}
+.bx h1, .bx h2, .bx p {
+    color: white;
+    margin-bottom: 20px;
+    padding-left: 15px;
+  
+}
+.bx p {
+    font-size: 18px;
+}
+.box:hover{
+    transform: translateY(-10px);
+}
+.box2{
+    background-color: white;
+    width: 95%;
+    margin: auto;
+    border-radius: 18px;
+    box-shadow: 0 11px 22px rgb(231 51 43 / 10%);
+    transition: .25s ease;
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+.bx2{
+    padding: 1em;
+    position: relative;
+    padding-bottom: 30px;
+}
+.box2:hover:hover{
+    transform: translateY(-10px);
+}
+.bx2 h1, .bx2 h2, .bx2 p {
+    color: black;
+    margin-bottom: 20px;
+    padding-left: 15px;
+   
+}
+.bx2 p {
+    font-size: 18px;
+}
+
+.quality{
+    background-color: #e8332c;
+    width: 99%;
+    margin: auto;
+    padding-bottom: 30px;
+}
+.start{
+    position: relative;
+}
+.start img.sec{
+    width: 50px;
+    position: absolute;
+    right: 30%;
+    margin-top: 30px;
+    
+}
+.get{
+    padding: 1em;
+    padding-top: 50px;
+}
+.get p{
+    margin-bottom: 30px;
+    color: white;   
+    font-size: 16px;
+}
+.get h3{
+    width: 90%;
+    color: white;
+    font-size: 25px;
+    margin-top: -10px;
+}
+
+.start button.roll{
+    background-color: white;
+    border: none;
+    padding: .6em;
+    padding-inline: 1.2em;
+    color: #e8332c;
+    font-size: 18px;
+    border-radius: 50px;
+    margin-bottom: 15px;
+}
+
+.work{
+    display: flex;
+    padding: 1em;
+}
+.work2{
+    display: flex;
+    padding: 1em;
+}
+.team{
+    border: 2px solid white;
+    display: flex;
+    width: 50%;
+    border-radius: 50px;
+    padding: .3em;
+    margin-left: 15px;
+   
+
+}
+.team:first-child{
+    margin-left: 0;
+}
+
+.team img.hand{
+    padding-right: 10px;
+    width: 60px;
+    padding-left: 8px;
+}
+.team p{
+    color: white;
+    font-size: 10px;
+    margin-top: 13px;
+}
+
+.lady {
+    width: 90%;
+    margin: auto;
+}
+.lady img.hot {
+    width: 100%;
+}
+.lady img.dot {
+    width: 10%;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+.scope{
+   padding-top: 70px;
+}
+.lm{
+    padding-left: 5%;
+}
+
+.scope p.prog {
+    color: #e8332c;
+    font-size: 20px;
+    margin-bottom: 5px;
+    width: 95%;
+    margin: auto;
+   
+}
+.scope h3 {
+    font-size: 22px;
+    margin-top: 0;
+    width: 95%;
+    margin: auto;
+}
+.arr{
+    text-align: center;
+}
+.arr img.arrow{
+    width: 150px;
+}
+.fe{
+    width: 95%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.js{
+    background-color: white;
+    width: 90%;
+    margin: auto;
+    padding: 3em;
+    padding-block: 1.3em;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    padding-left: 3.5em;
+    padding-right: 2.5em;
+    border-radius: 41px;
+    box-shadow: 0 11px 22px rgb(231 51 43 / 10%);
+    padding-bottom:40px ;
+}
+.js h2{
+    font-size: 22px;
+}
+.logos{
+    margin-top: 5px;
+    margin-bottom: 30px;
+}
+.logos img {
+    padding-right: 14px;
+}
+.bn{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 60px;
+}
+
+.bn a button{
+    background-color: #e8332c;
+    padding: .5em;
+    border-radius: 50px;
+    padding-inline: 1.4em;
+    font-size: 20px;
+    letter-spacing: 1px;
+    color: white;
+    font-weight:100;
+   
+}
+.questions{
+    margin-top: 40px;
+    position: relative;
+}
+.questions img {
+    position: absolute;
+    width: 23%;
+    left: 10%;
+}
+.got{
+    text-align: center;
+    padding-top: 40px;
+    margin-bottom: 100px;
+}
+.got p {
+ color: #e8332c;
+ font-size: 18px;
+ margin-bottom: 0;
+}
+.got h2{
+    margin-top: 0;
+    font-size: 22px;
+}
+.table{
+    width: 95%;
+    margin: auto;
+    margin-bottom: 70px;
+}
+.bxx p {
+    width: 70%;
+}
+
+
+
+ .show_hide{
+    cursor:pointer;
+    width: 100%;
+    border: none;
+  
+    }
+    
+    #text{
+    display:none;}
+    
+    .btn-container{
+      margin: auto;}
+    
+    .fa-solid{
+    float: right;
+    margin-top: -53px;
+    transform-origin: center;
+    transform-style: preserve-3D;
+    transition: .25s ease;
+    }
+    #last{
+        margin-top: -35px;
+    }
+    
+    .fa-solid.active {
+       transform: rotateZ(180deg)
+    }
+
+    .bxx{
+        border: 1px solid #bab0be;
+        padding: .6em;
+    }
+    .show_hide p {
+        font-weight: 600;
+    }
+    .still{
+        text-align: center;
+        margin-bottom: 50px;
+    }
+    .stll{
+        display: block;
+    }
+   
+    .still a {
+        background-color: #e8332c;
+        padding: .6em;
+        padding-left: 1em;
+        padding-right: 1em;
+        margin-top: 20px;
+        border-radius: 20px;
+        color: white;
+        text-decoration: none;
+    }
+    .still a i {
+        padding-right: 5px;
+    }
+    .star{
+        position: relative;
+    }
+
+    .wire{
+        width: 67px;
+        position: absolute;
+        top: 45px;
+        left: 40px;
+    }
+    .star1{
+        width: 39px;
+        position: absolute;
+        top: 50px;
+        right: 10px;
+    }
+    .structure{
+        padding-top: 50px;
+        text-align: center;
+        margin-bottom: 50px;
+    }
+    .struc{
+        color: #e8332c;
+        margin-bottom: 0;
+        font-size: 18px;
+    }
+    .structure h2 {
+        margin-top: 0;
+    }
+
+    .block{
+        display: flex;
+        flex-direction: column;
+    }
+    .blackbox{
+        position: relative;
+        margin-bottom: 90px;
+    }
+    .tri img {
+        position: absolute;
+       
+    }
+    .behind{
+        position: absolute;
+        width: 100px;
+        right: 0;
+        bottom: 15%;
+        overflow: hidden;
+    }
+
+    .bl{
+        padding: 1em;
+        background-color: #1b1a20;
+        width: 95%;
+        margin: auto;
+        border-radius: 55px;
+        margin-bottom: 30px;
+        position: relative;
+        box-shadow: 0 11px 22px rgb(231 51 43 / 10%);
+    }
+    .bl3 {
+        z-index: 3;
+    }
+    .behind{
+        position: absolute;
+        width: 150px;
+        right: -5px;
+        bottom: -50px;
+        overflow: hidden;
+    }
+    .black1{
+        color: white;
+        padding: 1em;
+        width: 99%;
+        padding-left: 2em;
+        position: relative;
+    }
+    .post em {
+        background-color: #e8332c;
+        padding: 6px;
+        padding-block: 0px;
+        border-radius: 50%;
+        font-size: 11px;
+    }
+    .black1 h3{
+        margin-bottom: 0;
+    }
+    .black1 ul{
+        margin-top: 0;
+    }
+    .black1 ul li{
+        font-size: 19px;
+    }
+    .black1 img{
+        width: 70px;
+        position:absolute;
+        bottom: 3%;
+        right: 3%;
+    }
+    .black1 img.clock{
+        width: 120px;
+    }
+    .blackbox img.bdd{
+        position: absolute;
+        width: 10%;
+        bottom: -10%;
+        left: 3%;
+        display: none;
+    }
+
+    .redbox{
+        background-color: #e8332c;
+        position: relative;
+        padding: 3em;
+        border-radius: 20px;
+        margin-bottom: 70px;
+    }
+    .redbox img{
+        position: absolute;
+    }
+    .gb{
+        position: absolute;
+        width: 10%;
+        top: 0;
+    }
+    .discussion{
+        text-align: center;
+        color: white;
+        width: 75%;
+        margin: auto;
+    }
+    .discussion p {
+        font-size: 18px;
+        
+    }
+    .rand{
+        width: 68px;
+        top: 10%;
+        left: 10%;
+    }
+    .bend{
+        width: 79px;
+        top: 0;
+        right: 0;
+    }
+    .cv2{
+        width: 92px;
+        bottom: 0;
+        left: 0;
+
+    }
+    .mains{
+        width: 55px;
+        bottom: 0;
+        right: -1%;
+    }
+    .const a button{
+        background-color: white;
+        padding: .5em;
+        border-radius: 50px;
+        padding-inline: 1.4em;
+        font-size: 20px;
+        letter-spacing: 1px;
+        color: #e8332c;
+        font-weight:100;
+        margin-bottom: 50px;
+        margin-top: 20px;
+    }
+    .trap{
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .fb{
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .fb a{
+        padding-left: 5px;
+    }
+    .fb a:last-child{
+        padding-left: 0;
+    }
+    .policy{
+        text-align: center;
+    }
+    a.privacy{
+        margin-top: 6%;
+        font-size: 18px;
+        color: black;
+        margin-bottom: 20px;
+        text-decoration: none;
+    }
+    .bbb .line{
+        margin-top: 20px;
+    }
+    .footer{
+        text-align: center;
+        margin-top: 15px;
+        margin-bottom: 50px;
+    }
+    .footer i {
+        font-size: 14px;
+    }
+    
+    @media only screen and (min-width: 540px){
+        .swoosh{
+            right: 13%;
+            top: 26%;
+        }
+    }
+    @media only screen and (min-width: 761px){
+        .swoosh{
+            right: 32%;
+        }
+    }
+    @media only screen and (min-width: 768px){
+        .click img{
+            width: 320px;
+        }
+        .menu{
+            margin-top: 15px;
+            width: 190px;
+        }
+        .button a span{
+            padding: 0.6em;
+            padding-inline: 1em;
+
+        }
+        .button a img {
+            width: 70px;
+            position: absolute;
+            border: 11px solid #e8332c;
+            left: -51px;
+            top: -24px;
+        }
+        .image{
+            margin: auto;
+            text-align: center;
+        }
+        .image img {
+            width: 76%;
+            margin: auto;
+        }
+        .note{
+            margin-top:-50px ;
+            padding-bottom: 50px;
+            margin-bottom: 50px;
+        }
+        .note h3{
+            font-size: 37px;
+            margin-bottom: 65px;
+            width: 90%;
+        }
+        .swoosh{
+            top: 25%;
+            right: 5%;
+            width: 33%;
+        }
+        .black{
+            width: 65%;
+            margin: auto;
+            padding-bottom: 50px;
+        }
+        .sec1s{
+            width: 12%;
+            bottom: 0;
+        }
+        .potrait img{
+            display: block;
+            bottom: 10%;
+            width: 7%;
+            left: 10%;
+        }
+        .good{
+            font-size: 24px;
+        }
+        .ingress img{
+            width: 40%;
+        }
+        .more{
+            font-size: 18px;
+        }
+        .yy{
+            margin-top: 50px;
+        }
+        .at{
+            line-height: 35px;
+        }
+        .box, .box2{
+            padding: 2em;
+
+        }
+        .bx h1, .bx2 h1{
+            font-size: 70px;
+            margin-bottom: 0;
+            margin-top: 0;
+        }
+        .bx h2, .bx2 h2{
+            font-size: 40px;
+            margin-bottom: 35px;
+            font-weight: 500;
+        }
+        .circle img {
+            width: 40%;
+            right: -34px;
+            top: -32px;
+        }
+        .quality{
+            padding: 3em;
+        }
+        .get p{
+            font-size: 20px;
+            margin-bottom: 0;
+        }
+        .get h3{
+            margin-top: 0;
+        }
+        .start{
+            padding-top: 20px;
+        }
+        .start img.sec{
+            width: 20%;
+            top: -5%;
+            right: 20%;
+        }
+        .lady img.dot{
+            width: 15%;
+        }
+        .roll{
+            margin-top: 30px;
+        }
+        .team{
+         width: 35%;
+         margin-right: 100px;
+
+        }
+        .scope h3{
+            width: 60%;
+            margin-left: 0;
+            padding-left: 20px;
+            font-size: 24px;
+        }
+        .arr{
+            text-align: center;
+            margin-top: -10px;
+        }
+        .arr img.arrow{
+            width: 100px;
+        }
+        .questions{
+            margin-top: 100px;
+        }
+        .questions img{
+            width: 21%;
+            top: -37%;
+            left: 14%;
+        }
+        .still{
+            display: flex;
+            text-align: center;
+        }
+        .still p, .still a {
+            display: block;
+        }
+        .stll{
+            margin: auto;
+            display: flex;
+            width: 46%;
+            justify-content: space-between;
+        }
+        .still a{
+            padding-left: 1.5em;
+            padding-right: 1.5em;
+            margin-top: 20px;
+            border-radius: 30px;
+            padding-top: 10px;
+        }
+        .still p {
+            padding-top: 15px;
+        }
+        .structure{
+            padding-top:100px ;
+        }
+        .structure p {
+            font-size: 18px;
+        }
+        .star{
+            padding-top: 80px;
+        }
+        .wire{
+            width: 21%;
+            left: 13%;
+        }
+        .star1{
+            width: 12%;
+            top: 45%;
+        }
+        .bl{
+            padding-top: 4%;
+            padding-bottom: 10%;
+        }
+        .black1 img {
+            width: 19%;
+        }
+        .black1 img.clock{
+            width: 30%;
+        }
+        .blackbox img.bdd{
+            position: absolute;
+            width: 10%;
+            bottom: -10%;
+            left: 3%;
+            display: none;
+        }
+
+        .redbox{
+            width: 95%;
+            margin: auto;
+            margin-top: 150px;
+            padding-top: 40px;
+            padding-bottom: 40px;
+        }
+        .discussion p {
+            font-size: 20px;
+        }
+        .discussion h2{
+            font-size: 61px;
+            margin-top: 10px;
+        }
+        .cv2{
+            width: 15%;
+        }
+        .mains{
+            width: 20%;
+        }
+        .rand{
+           width:13%;
+        }
+        .bend{
+            width: 22%;
+        }
+        .feet{
+            margin-top: 100px;
+        }
+        .flt{
+            display: flex;
+            width: 90%;
+            margin: auto;
+            justify-content: space-between;
+        }
+        .bbb .line{
+            display: none;
+        }
+        .xx{
+            display: flex;
+            width: 90%;
+            margin: auto;
+            justify-content: space-between;
+        }
+        .policy{
+            display: flex;
+        }
+        .gd{
+            padding-right: 15px;
+        }
+        .xx p, .xx span{
+            font-size: 18px;
+        }
+        .tub p{
+            font-size: 18px;
+        }
+    }
+
+    @media only screen and (min-width: 820px){
+        .click img{
+            width: 320px;
+        }
+        .button{
+            margin-top: 12px;
+        }
+        .table{
+            width: 79%;
+        }
+        .blackbox img.bdd{
+            position: absolute;
+            width: 10%;
+            bottom: -10%;
+            left: 3%;
+            display: none;
+        }
+
+    }
+
+    @media only screen and (min-width: 912px){
+       .ingress{
+        display: flex;
+       }
+       .ingress img{
+        margin-top: 0;
+       }
+       .ingress p {
+        margin: auto;
+       }
+
+       .jug{
+        display: flex;
+        margin-bottom: 10px;
+       }
+       .jug img{
+        display: block;
+       }
+       .why{
+        width: 57%;
+        margin-left: 5%;
+       }
+       .yy h3{
+        font-size: 30px;
+       }
+       .st{
+        display: block;
+        margin-top: 110px;
+       
+       }
+       .st img {
+        width: 60%;
+       }
+       .spiral img{
+        top: 20%;
+       }
+       .swoosh{
+        width: 20%;
+        left: 65%;
+        top: 28%;
+       }
+       .container{
+        width: 95%;
+        margin: auto;
+      
+       }
+       .box{
+        width: 45%;
+        margin: auto;
+        margin-bottom: 30px
+       }
+       .box2{
+        width: 45%;
+        margin: auto;
+        margin-bottom: 30px
+       }
+       .box2:last-child{
+        margin-top: 0;
+        padding-bottom: 10px;
+       }
+       
+       .js{
+          width: 45%;
+        }
+        .blackbox{
+            display: flex;
+        }
+        .bl{
+            width: 48%
+        }
+        .bl3{
+            padding-bottom: 26%;
+        }
+        .bl3 ul li{
+            margin-bottom: 10px;
+        }
+        .bend{
+            width: 13%;
+        }
+        .quality{
+            margin-top: 150px;
+        }
+        .blackbox img.bdd{
+            position: absolute;
+            width: 10%;
+            bottom: -10%;
+            left: 3%;
+            display: block;
+        }
+    }
+
+    @media only screen and (min-width: 1024px){
+        .click img{
+            width: 250px;
+        }
+        .menu{
+            display: block;
+            width: 496px;
+            margin-top: 0;
+            text-align: right;
+            float: right;
+        }
+        .button{
+            margin-left: 0;
+        }
+        .swoosh{
+            top: 27%;
+            right: 15%;
+        }
+        .star{
+            padding-top: 50px;
+        }
+        .star img.wire{
+            width: 13%;
+        }
+        .star1{
+            right: 5%;
+        }
+        .bl3{
+            padding-bottom: 22%;
+            margin-top: 0;
+        }
+        .scope h3{
+            width: 100%;
+            font-size: 30px;
+            font-weight: 600;
+
+        }
+        h3.good{
+            text-align: left;
+        }
+        .ingress{
+            width: 90%;
+            margin: auto;
+        }
+        .blackbox{
+            width: 90%;
+            margin: auto;
+        }
+        .behind{
+            right: -4%;
+            bottom: 0;        
+        }
+        img.bdd{
+            bottom: -2%;
+        }
+    }
+
+    @media only screen and (min-width: 1280px){
+        .click img{
+            width: 350px;
+            
+        }
+        .menu{
+            width: 580px;
+            padding-left: 100px;
+        }
+        .hero{
+            display: flex;
+            width: 95%;
+            margin: auto;
+            padding-top: 230px;
+            padding-bottom: 50px;
+        }
+        .image{
+            width: 20%;
+            margin-top: 65px;
+            margin-right: 75px;
+        }
+        .image img{
+            width: 170%;
+        }
+        .laptop img{
+            display: block;
+            width: 90%;
+            margin-top: 50px;
+        }
+        .note{
+            width: 70%;
+            padding-bottom:0 ;
+        }
+        .note h3{
+            font-size: 50px;
+            width: 95%;
+            margin-bottom: 40px;
+        }
+        .roll{
+            margin-top: 8%;
+        }
+        .sec1s{
+            width: 13%;
+            bottom: -5%;
+            left: 59%;
+        }
+        .swoosh{
+            width: 35%;
+            top: 46%;
+            left: 52%;
+        }
+        .ingress{
+            width: 95%;
+        }
+        .more{
+            text-align: right;
+            font-size: 22px;
+        }
+        .potrait img{
+            width: 5%;
+            left: 22%;
+            bottom: 18%;
+        }
+        .black{
+            width: 59%;
+            margin: auto;
+            padding-bottom: 0;
+        }
+        .red{
+            font-size: 22px;
+        }
+        .box, .box2{
+            width: 30%;
+        }
+        .box2:first-child{
+            padding-bottom:0 ;
+        }
+        .quality{
+            display: flex;
+        }
+        .js{
+            width: 30%;
+        }
+        .scope h3 {
+            font-size: 40px;
+            width: 42%;
+        }
+        .scope p.prog{
+            font-size: 24px;
+            margin-left: 20px;
+        }
+        .questions img{
+            width: 12%;
+            top: 10%;
+        }
+        .got p{
+            font-size: 24px;
+        }
+        .got h2{
+            font-size: 40px;
+        }
+        .still{
+            width: 100%;
+            justify-content: center;
+        }
+        .stll{
+            justify-content: space-evenly;
+        }
+        .still p{
+            padding-right: 20px;
+            font-size: 18px;
+            padding-top: 6px;
+            margin-right: -105px;
+        }
+        .structure p{
+            font-size: 24px;
+        }
+        .structure h2{
+            font-size: 45px;
+        }
+        .blackbox{
+            width: 85%;
+            margin: auto;
+            padding-bottom: 100px;
+        }
+        .bl{
+            margin-right: 2.5%;
+        }
+        .bl3{
+            margin-right: 0;
+            margin-top: 0;
+        }
+        .tri img{
+            display: block;
+            left: -11%;
+            top: 23%;
+        }
+        .behind{
+            right: -4%;
+            bottom: 8%;
+        
+        }
+        .blackbox{
+            margin-top: 70px;
+        }
+        .blackbox img.bdd{
+            width: 12%;
+            bottom: -12%;
+            left: -5%;
+        }
+        .lm {
+            padding-left:30px ;
+        }
+       
+        .yy h3{
+            font-size: 45px;
+            line-height: 50px;
+            margin-top: 20px;
+        }
+        .yy p {
+            font-size: 24px;
+        }
+        .spiral img{
+            top: 14%;
+        }
+        .st img{
+            margin-top: 60px;
+            margin-right: 70px;
+
+        }
+        .mains{
+            width: 15%;
+        }
+        .redbox{
+            padding-top: 130px;
+        }
+        .discussion h2{
+            width: 70%;
+            margin: auto;
+            margin-bottom: 50px;
+        }
+        .spiral img {
+            top: 5%;
+        }
+       
+}      
+
+
+
+
